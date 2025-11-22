@@ -1,0 +1,180 @@
+body{
+    padding: 10px;
+}
+
+section {
+    padding:15px;
+    padding-right: 20px;
+    border: 5px solid black;
+    border-top: 0px;
+}
+
+section a {
+    font-size: 18px;
+    color: black;
+    padding-bottom: 15px;
+    flex: 1
+}
+
+section a:hover{
+    color: blue;
+    font-style: italic;
+    font-size: 20px;
+}
+
+section ul {
+    list-style-type: none;
+    display: flex;
+    width: 100%;
+}
+
+section ul li{
+    display: flex;
+}
+
+section ul li.voir{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+section ul li.date{
+    flex: 3;
+    justify-content: flex-end;
+}
+
+section ul li h4{
+    font-size: 18px;
+    padding-bottom: 10px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+label{
+    border: 2px solid black;
+    padding: 5px;
+    width: 100%;
+}
+
+section table{
+    width: 100%;
+    border-spacing: 15px;
+}
+
+section table tr td {
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    max-width: 300px;
+    vertical-align: middle;
+}
+
+
+.big-box {
+    height: 30vh;
+    border: 2px solid #333;
+    margin-bottom: 16px;
+    background-color: #f9f9f9;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+}
+
+.small-box {
+    height: 10vh;
+    margin-bottom: 16px;
+    border: 2px solid #333;
+    background-color: #f9f9f9;
+    width: 100%;
+    padding: 10px;
+    resize: none;
+}
+
+.left-box {
+    width:50%;
+}
+.left-box h2 {
+    margin-bottom: 16px;
+}
+.left-box form {
+    width:100%;
+}
+
+section table tr td input[type="text"] {
+    width: 30%;
+    height: 40px;
+    padding: 3px 7px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+section table tr td input[type="password"] {
+    width: 30%;
+    height: 40px;
+    padding: 3px 7px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+section table tr td input[type="email"] {
+    width: 30%;
+    height: 40px;
+    padding: 3px 7px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+section table tr td input[type="submit"] {
+    height: 40px;
+    padding: 0 20px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+section table tr td input[type="submit"]:hover {
+    background-color: rgb(70, 59, 230);
+    color: white;
+}
+
+
+
+section table{
+    width: 100%;
+    text-align: left;
+}
+
+.table-visible{
+    border: black 2px solid;
+    height: 30px;
+    padding: 5px;
+}
+
+
+.inscription{
+    width: 15%;
+}
+
+
+.soumettre-button{
+    height: 40px;
+    padding: 0 20px;
+    font-size: 15px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+    cursor: pointer;
+}
+
+.soumettre-button:hover{
+    background-color: rgb(70, 59, 230);
+    color: white;
+}
+
+.error{
+    color: red;
+}

@@ -1,0 +1,4 @@
+{
+  "ignore": ["datas/*.json", "coverage/*", "tests/*"],
+  "watch": ["*.js", "routes/*.js", "model/*.js", "helper/*.js", "templates/*.ejs"]
+}
